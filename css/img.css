@@ -1,0 +1,41 @@
+.itroduce__logo {
+	position: relative;
+	width: 80%;
+}
+
+.introduce__img {
+	position: absolute;
+	top: 8px;
+	left: 0;
+}
+
+
+.navigation__search img {
+	position: absolute;
+	right: 25px;
+	top: 23px;
+}
+
+
+.present-item__img {
+		display: inline-block;
+		margin-top: 18px;
+	}
+
+.news-block__img1 {
+	position: relative;
+	width: 80%;
+	height: 150px;
+	background-image: url(../img/NewsImg.png);
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}
+
+.news-block__img2 {
+	position: relative;
+	width: 80%;
+	height: 150px;
+	background-image: url(../img/NewsImg2.png);
+	background-repeat: no-repeat;
+	margin-right: 30px;
+}

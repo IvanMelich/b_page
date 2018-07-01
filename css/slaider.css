@@ -1,0 +1,79 @@
+.advantage {
+		height: 520px;
+		max-width: 1160px; 
+		margin: 0 auto;
+		position: relative;
+
+	}
+
+	.slaiders {
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0;
+		list-style: none;
+		color: white;
+		position: relative;
+
+
+	}
+
+	
+	.slaiders__item img {
+		position: absolute;
+		top: 40px;
+
+	}
+
+
+	.advantage input[type="radio"] {
+		opacity: 0;
+		display: none;
+	}
+
+	.control-sladers {
+		position: absolute;
+		bottom: 15px;
+		width: 200px;
+		left: 50%;
+		margin-left: -100px;
+		height: 22px;
+		z-index: 100;
+		text-align: center;
+	}
+
+	.control-sladers label {
+		display: inline-block;
+		width: 10px;
+		height: 10px;
+		margin: 0 8px;
+		background-color: white;
+		border: 3px solid white;
+		cursor: pointer;
+		vertical-align: top;
+	}
+
+	#btn-1:checked ~ .control-sladers label[for="btn-1"],
+	#btn-2:checked ~ .control-sladers label[for="btn-2"],
+	#btn-3:checked ~ .control-sladers label[for="btn-3"] {
+		background-color: black;
+	}
+
+
+	.slaiders__item {
+		display: none;
+	}
+
+	#btn-1:checked ~ .slaiders .slaiders__item:nth-child(1) {
+		display: block;
+	}
+
+	#btn-2:checked ~ .slaiders .slaiders__item:nth-child(2) {
+		display: block;
+	}
+
+	#btn-3:checked ~ .slaiders .slaiders__item:nth-child(3) {
+		display: block;
+	}
+
+	/*finish-slaider-block*/
